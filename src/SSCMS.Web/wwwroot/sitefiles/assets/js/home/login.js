@@ -31,7 +31,7 @@ var methods = {
       var res = response.data;
 
       $this.version = res.version;
-      $this.homeTitle = res.homeTitle;
+      $this.homeTitle = '企业官网';
       $this.isSmsEnabled = res.isSmsEnabled;
       $this.apiCaptcha();
     }).catch(function (error) {

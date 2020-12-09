@@ -59,7 +59,7 @@ var methods = {
 
         $this.cmsVersion = res.cmsVersion;
         $this.adminLogoUrl = res.adminLogoUrl || utils.getAssetsUrl('images/logo.png');
-        $this.adminTitle = res.adminTitle || 'SS CMS';
+        $this.adminTitle = res.adminTitle || '企业官网';
         $this.isSuperAdmin = res.isSuperAdmin;
         $this.culture = res.culture;
         $this.plugins = res.plugins;
@@ -249,7 +249,7 @@ var methods = {
   },
 
   getHostUrl: function() {
-    return cloud.host;
+    return '/ss-admin/';
   },
 
   btnSearchClick: function() {

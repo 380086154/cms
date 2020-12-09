@@ -1,0 +1,25 @@
+<div class="col-md-3">
+  <div class="sidbar">
+    <div class="sidbarnav">
+      <div class="tzggtit"> <span> {Channel.top1.Title} </span> </div>
+      <ul class="ymtitle">
+      <stl:channels topLevel="1">
+      <stl:if testType="UpChannelOrSelf">
+      <stl:yes>
+        <li class="cat-item current-cat"><stl:a>{Channel.Title}</stl:a> </li>
+      </stl:yes>
+      <stl:no>
+        <li class="cat-item"><stl:a>{Channel.Title}</stl:a> </li>
+      </stl:no>
+      </stl:if>
+      </stl:channels>
+      </ul>
+    </div>
+    <div class="sidbarcontact">
+      <div class="tzggtit"> <span> 联系我们 </span> </div>
+      <p> 公司地址：重庆市酉阳县龙潭镇五育村4组</br>
+        联系电话：023-75355392</br>
+        邮箱：2283331409@qq.com</br>
+      </div>
+  </div>
+</div>
